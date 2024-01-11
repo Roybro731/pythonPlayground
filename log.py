@@ -1,7 +1,9 @@
 import logging
 
 def startHere():
-    logging.basicConfig(filename="log.log", level=logging.DEBUG)
+    fmtstr = "%(asctime)s: %(levelname)s: %(funcName)s Line:%(lineno)d %(message)s"
+    logging.basicConfig(filename="log.log", 
+                        level=logging.DEBUG, format=fmtstr)
     logging.info("using logging")
     logging.warning("this is warning")
         

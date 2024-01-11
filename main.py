@@ -3,6 +3,9 @@ from bank import Bank
 import log
 import advancedCollections
 import advancedClasses
+import comprehnsions
+import designPatterns
+
 
 # account = Bank('Bank')
 # account.addMoneY(100, "salary")
@@ -30,5 +33,11 @@ import advancedClasses
 # #advanced classes
 # advancedClasses.runProgram()
 
-#logging
-log.startHere()
+# #logging
+# log.startHere()
+
+# #comprehensions
+# comprehnsions.startHere()
+
+#design patterns
+designPatterns.builderPattern()
