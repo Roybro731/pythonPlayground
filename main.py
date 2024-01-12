@@ -5,6 +5,7 @@ import advancedCollections
 import advancedClasses
 import comprehnsions
 import designPatterns
+from design_patterns import direc
 
 
 # account = Bank('Bank')
@@ -41,3 +42,5 @@ import designPatterns
 
 #design patterns
 designPatterns.builderPattern()
+
+direc.printThese()
